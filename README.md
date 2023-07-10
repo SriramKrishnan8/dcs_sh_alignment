@@ -20,15 +20,11 @@ pip3 install devtrans
 
 ### DCS Sentences and Data
 
-Download the *dcs_sentences.tsv* from [dcs_json](https://drive.google.com/drive/u/3/folders/1erKh47n_JJfVeczhrFoOZEXluDiJyD10) and store it in *./data/dcs/*.
+* Download the *dcs_sentences.tsv* from [dcs_json](https://drive.google.com/drive/u/3/folders/1erKh47n_JJfVeczhrFoOZEXluDiJyD10) and store it in *./data/dcs/*.
 
-To use the existing DCS json in WX format:
+* To use the existing DCS json in WX format: download *dcs_json_wx.zip* from [dcs_json](https://drive.google.com/drive/u/3/folders/1erKh47n_JJfVeczhrFoOZEXluDiJyD10) and unzip it into  *./data/dcs/*.
 
-Download *dcs_json_wx.zip* from [dcs_json](https://drive.google.com/drive/u/3/folders/1erKh47n_JJfVeczhrFoOZEXluDiJyD10) and unzip it into  *./data/dcs/*.
-
-To convert DCS data from IAST to WX, afresh:
-
-Download *dcs_json_files.zip* from [dcs_json](https://drive.google.com/drive/u/3/folders/1erKh47n_JJfVeczhrFoOZEXluDiJyD10) and unzip it into  *./data/dcs/*.
+* To convert DCS data from IAST to WX, afresh: download *dcs_json_files.zip* from [dcs_json](https://drive.google.com/drive/u/3/folders/1erKh47n_JJfVeczhrFoOZEXluDiJyD10) and unzip it into  *./data/dcs/*. And then run the following:
 
 ```
 cd code/
@@ -38,11 +34,9 @@ python3 convert_dcs_to_wx.py ../data/dcs/dcs_sentences.tsv ../data/dcs_json_file
 
 ### SH Analysis
 
-To use the existing SH analyses:
+* To use the existing SH analyses: download *sh_files.zip* from [dcs_json](https://drive.google.com/drive/u/3/folders/1-agVobkxVYXw5eIVX2JQHUwzqsR-NTXk) and unzip the contents to *./data/sh/*.
 
-Download *sh_files.zip* from [dcs_json](https://drive.google.com/drive/u/3/folders/1-agVobkxVYXw5eIVX2JQHUwzqsR-NTXk) and unzip the contents to *./data/sh/*.
-
-To generate the latest analyses:
+* To generate the latest analyses, run the following
 
 ```
 mkdir -p observations/alignment_2/she_extraction/
@@ -59,7 +53,7 @@ The aligned dataset details are available at: [dcs_sh_alignment_1](https://drive
 
 ## Alignment 1 - Hackathon
 
-The aligned dataset details are available at: [dcs_sh_alignment_1](https://drive.google.com/drive/folders/1r4IgONLVboMvzh9B5ZJKnrW0lqW25J53?usp=drive_link).
+The aligned dataset details are available at: [wsmp_dataset](https://drive.google.com/drive/folders/1b-e50pjXOAhU3NJLH_iIN4xWwFaqkk9I?usp=drive_link).
 
 ## Alignment 2
 
