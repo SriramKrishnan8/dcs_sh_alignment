@@ -462,7 +462,7 @@ def create_new_data(data, segment_nodes):
         sh_base_morphs.append(inner_sh_base_morph)
         pre_verbs.append(inner_pre_verb)
     
-    new_data["node_id"] = node_id
+    new_data["node_id"] = node_ids
     new_data["dcs_word"] = dcs_words
     new_data["sh_word"] = sh_words
     new_data["word"] = words

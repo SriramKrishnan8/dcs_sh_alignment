@@ -47,13 +47,15 @@ sh extract_she_analysis.sh ../data/dcs/dcs_sentences.tsv ../data/sh/sh_files/ cg
 
 (Note: the *./code/sktgraph* is a binary generated from the SH platform. It is necessary that certain data files are to be present in */var/www/html/SKT/*. In the current update, it is not feasible to generate unless the SH platform is already installed. In the next update, this will be fixed by keeping all the necessary binaries in the repository itself.)
 
+All the details of the alignments, implementation results and the normalized dataset for word segmentation and morphological parsing are avaialable at: [ND-SWSMP](https://drive.google.com/drive/folders/1VmffgzbcTyg9cJ6o4eTOFYInfG07Jl-H?usp=drive_link)
+
 ## Alignment 1
 
 The aligned dataset details are available at: [dcs_sh_alignment_1](https://drive.google.com/drive/folders/1r4IgONLVboMvzh9B5ZJKnrW0lqW25J53?usp=drive_link).
 
 ## Alignment 1 - Hackathon
 
-The aligned dataset details are available at: [wsmp_dataset](https://drive.google.com/drive/folders/1b-e50pjXOAhU3NJLH_iIN4xWwFaqkk9I?usp=drive_link).
+The aligned dataset details are available at: [wsmp_dataset](https://drive.google.com/drive/folders/112sLHYZd6FlQN9pcVn-AsXd-F5ZFHNim?usp=drive_link).
 
 ## Alignment 2
 
@@ -63,7 +65,7 @@ To generate your own, follow the instructions in *./code/alignment_2.sh*.
 
 ## Alignment 3
 
-The aligned dataset details are available at: [dcs_sh_alignment_3](https://drive.google.com/drive/folders/1XTPr8ndKQhBUXJEkE8wxfNaNL0XYpU2r?usp=drive_link).
+The aligned dataset details are available at: [dcs_sh_alignment_3](https://drive.google.com/drive/folders/1XTPr8ndKQhBUXJEkE8wxfNaNL0XYpU2r?usp=sharing).
 
 To generate your own, follow the instructions in *./code/alignment_3.sh*.
 
